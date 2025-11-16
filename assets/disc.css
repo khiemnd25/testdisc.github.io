@@ -397,14 +397,15 @@ margin:auto;
     margin-top: 21px;
 }
 
-.top_header fieldset input, .top_header fieldset textarea{
-background-color:rgba(255,255,255,0.5);
-padding:1rem;
-border:0;
-outline:none;
-width:100%;
+.top_header fieldset input, .top_header fieldset textarea {
+    background-color: rgba(255,255,255,0.5);
+    padding: 1rem;
+    outline: none;
+    width: 100%;
+    appearance: auto;
+    -webkit-appearance: menulist;
+    border: 1px solid #000;
 }
-
 .top_header fieldset .btn2 {
     background-color: var(--pink);
     color: var(--lite);
