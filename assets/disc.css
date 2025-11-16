@@ -398,14 +398,13 @@ margin:auto;
 }
 
 .top_header fieldset input, .top_header fieldset textarea{
-background-color:rgba(255,255,255,0.5);
-padding:15px;
-border:0;
-outline:none;
-width:100%;
-display: block;
-min-height: 45px;
-border-radius: 0;
+    background-color: rgba(255,255,255,0.5);
+    padding: 15px;
+    border: 0;
+    outline: none;
+    width: 100%;
+    color: var(--black);
+    text-align: left;
 }
 
 .top_header fieldset .btn2 {
